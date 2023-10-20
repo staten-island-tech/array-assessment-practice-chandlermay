@@ -89,6 +89,12 @@ const titles = [
 
 //Sort books from oldest to most recent
 
+books.forEach(books => {
+  books.publishDate.forEach(element => {
+    books.publishDate.sort();
+    console.log(books.publishDate);
+});
+  });
 //sort books alphabetically
 
 //Find who wrote War and Peace
